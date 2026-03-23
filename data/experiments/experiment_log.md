@@ -1,1 +1,0 @@
-date, sample, electrolyte, conditions
