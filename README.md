@@ -1,8 +1,6 @@
 # Open-Source Potentiostat for Cyclic Voltammetry and Corrosion Characterization of Cu and W
 
-> **Note: This project is actively in progress. 
-> The repository is being made public to document
-> the development process. It is not complete or 
+> **Note: This project is actively in progress.  It is not complete or 
 > ready for use.**
 
 ## Current status
