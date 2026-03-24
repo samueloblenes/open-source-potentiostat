@@ -36,7 +36,7 @@ electrochemical techniques:
 ```
 open-source-potentiostat/
 ├── hardware/
-│   ├── schematics/          ← KiCad schematic files (in progress)
+│   ├── schematics/          ← KiCad schematic files and circuit design notes(in progress)
 │   ├── simulation/          ← LTspice simulation files (in progress)
 │   └── bom/                 ← Bill of materials (in progress)
 └── README.md
