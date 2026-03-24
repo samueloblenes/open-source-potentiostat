@@ -64,9 +64,9 @@ measurements.
 #### DAC Selection
 - The MCP4725 12-bit DAC was selected for this design. It operates from Teensy 4.1 3.3V supply. At 12-bit resolution over a 0 to 3.3V output range the voltage step size is:
 
-V=3.3V/212=0.806 mV/step
+  V=3.3V/212=0.806 mV/step
 
-This meets the sub mV resolution requirement. It is low cost, widely used and available, and breakout boards are widely available for breadboarding.
+- This meets the sub mV resolution requirement. It is low cost, widely used and available, and breakout boards are widely available for breadboarding.
 
 #### Bipolar output
 - The MCP4725 produces a unipolar output from 0V to 3.3V. The instrument must scan across negative potentials, so we require a bipolar potential range. A unipolar to bipolar converter circuit is required between the DAC output and the control loop. A difference amplifier is used to shift and scale the DAC output to the required range. 
