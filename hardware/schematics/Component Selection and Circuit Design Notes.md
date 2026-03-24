@@ -42,3 +42,7 @@ Resolution and Accuracy:
 - Cost should be kept under $200
 - Components must be available from major suppliers
 - Assembly should be relatively simple and require hand soldering only
+
+
+## Component selection and circuit design
+
