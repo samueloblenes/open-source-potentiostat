@@ -5,8 +5,8 @@
 > The repository is being made public to document
 > the development process. It is not complete or 
 > ready for use.**
->
-> ## Current status
+
+## Current status
 
 ** A First-pass circuit design has been completed and simulation is in progress**
 
