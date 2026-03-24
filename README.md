@@ -47,6 +47,7 @@ open-source-potentiostat/
 ## License
 
 Hardware design files: CERN OHL-S v2
+
 Software and firmware: MIT
 
 # Disclaimer
