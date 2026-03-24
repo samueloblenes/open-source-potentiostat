@@ -7,7 +7,7 @@
 
 ## Current status
 
-** A First-pass circuit design has been completed and simulation is in progress**
+**A First-pass circuit design has been completed and simulation is in progress**
 
 ## Project overview
 | Stage | Status |
