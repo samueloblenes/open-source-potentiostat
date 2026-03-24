@@ -45,4 +45,38 @@ Resolution and Accuracy:
 
 
 ## Component selection and circuit design
+### Microcontroler
+#### Microcontroller consideration
+- The microcontroller must satisfy the following requirements:
+-   Sufficient processing speed for precise sweep timing across the full scan rate range of 1 mV/s to 500 mV/s without timing jitter that would distort CV curve 
+measurements.
+-   Hardware I2C and SPI peripherals for communication with the DAC, and ADC.
+-   A regulated 3.3V output and a 5V output.
+-   Compatibility with the Arduino IDE to maximise accessibility and reproducibility.
+
+#### Microcontroller selection
+- The Teensy 4.1 was selected. It operates at 600 MHz with an ARM Cortex-M7 processor, providing sufficient processing speed and is fully compatible with the Arduino IDE via the Teensyduino add-on. I2C and SPI peripherals are available for communication with the DAC and ADC. The board provides a regulated 3.3V output and a 5V VUSB output. It does not include an onboard DAC this is addressed through the use of an external I2C DAC, which adds only one low-cost component to the design and has negligible impact on circuit complexity.
+
+### DAC
+#### DAC Considerations
+- The Teensy 4.1 microcontroller does not include an onboard DAC, an external DAC is required. The DAC receives a digital value from the Teensy and generates the analog voltage setpoint applied to the control loop, Vset. The DAC must have sufficient resolution to achieve at least 1mV per step, be able to cover the ± 2V potential range, and be compatible with the Teensy 4.1 I2C interface.
+
+#### DAC Selection
+- The MCP4725 12-bit DAC was selected for this design. It operates from Teensy 4.1 3.3V supply. At 12-bit resolution over a 0 to 3.3V output range the voltage step size is:
+
+V=3.3V/212=0.806 mV/step
+
+This meets the sub mV resolution requirement. It is low cost, widely used and available, and breakout boards are widely available for breadboarding.
+
+#### Bipolar output
+- The MCP4725 produces a unipolar output from 0V to 3.3V. The instrument must scan across negative potentials, so we require a bipolar potential range. A unipolar to bipolar converter circuit is required between the DAC output and the control loop. A difference amplifier is used to shift and scale the DAC output to the required range. 
+-  For this circuit we are using a TL072 dual op-amp, with one channel as the differential amplifier, and the other as a buffer for the 1.65V reference voltage. The reference voltage is obtained using a 10KΩ voltage divider on the 3.3V supply from the teensy microcontroller. Decoupling capacitors (100nF and 10µF) capacitors are placed on the +- 12 volt rails to reduce noise, and a 100nF capacitor is used to decouple the reference voltage from the 3.3V rail.
+
+### Potentiostatic control circuit
+
+
+
+
+
+
 
