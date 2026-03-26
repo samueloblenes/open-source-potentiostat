@@ -60,7 +60,7 @@ validated. Do not use for any application requiring verified measurements.
 
 Samuel O'Blenes
 
-Undergraduate Nanotechnology Engineering Student, University of Waterloo
+Github: https://github.com/samueloblenes
 
 
 
