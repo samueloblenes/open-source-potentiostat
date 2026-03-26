@@ -40,8 +40,8 @@ open-source-potentiostat/
 ├── hardware/
 │   ├── schematics/          ← KiCad schematic files (in progress)
 │   ├── simulation/          ← LTspice simulation files and notes (in progress)
-│   ├── docs/                ← Design notes and build guide (in progress)
 │   └── bom/                 ← Bill of materials (in progress)
+├── docs/
 └── README.md
 ```
 
