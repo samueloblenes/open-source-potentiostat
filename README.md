@@ -12,11 +12,12 @@ A First-pass circuit design has been completed and simulation is in progress
 |---|---|
 | First-pass circuit design | ✅ Complete |
 | LTspice simulation and design refinement | 🔄 In progress |
-| Breadboard prototype | ⏳ Not started |
-| PCB design and fabrication | ⏳ Not started |
 | enclosure, electrode, and cell design | ⏳ Not started |
 | Firmware and software development | ⏳ Not started |
+| Breadboard prototype | ⏳ Not started |
+| PCB design and fabrication | ⏳ Not started |
 | Assembly | ⏳ Not started |
+| Calibration and test with randles cell equivalent | ⏳ Not started |
 | Instrument validation | ⏳ Not started |
 | Corrosion experiments | ⏳ Not started |
 
@@ -36,8 +37,8 @@ electrochemical techniques:
 ```
 open-source-potentiostat/
 ├── hardware/
-│   ├── schematics/          ← KiCad schematic files and circuit design notes(in progress)
-│   ├── simulation/          ← LTspice simulation files (in progress)
+│   ├── schematics/          ← KiCad schematic files and circuit design notes (in progress)
+│   ├── simulation/          ← LTspice simulation files and notes (in progress)
 │   └── bom/                 ← Bill of materials (in progress)
 └── README.md
 ```
