@@ -10,6 +10,7 @@ A First-pass circuit design has been completed and simulation is in progress
 ## Project overview
 | Stage | Status |
 |---|---|
+| Research and literature review | 🔄 In progress |
 | First-pass circuit design | ✅ Complete |
 | LTspice simulation and design refinement | 🔄 In progress |
 | enclosure, electrode, and cell design | ⏳ Not started |
@@ -24,7 +25,7 @@ A First-pass circuit design has been completed and simulation is in progress
 This project documents the design, construction, and validation 
 of a low-cost open-source potentiostat for cyclic voltammetry 
 (CV) and corrosion characterization of copper (Cu) and tungsten 
-(W) in semiconductor process-relevant electrolytes. 
+(W) in semiconductor process-relevant electrolytes.
 
 The completed instrument will support the following 
 electrochemical techniques:
@@ -37,8 +38,9 @@ electrochemical techniques:
 ```
 open-source-potentiostat/
 ├── hardware/
-│   ├── schematics/          ← KiCad schematic files and circuit design notes (in progress)
+│   ├── schematics/          ← KiCad schematic files (in progress)
 │   ├── simulation/          ← LTspice simulation files and notes (in progress)
+│   ├── docs/                ← Design notes and build guide (in progress)
 │   └── bom/                 ← Bill of materials (in progress)
 └── README.md
 ```
@@ -49,7 +51,7 @@ Hardware design files: CERN OHL-S v2
 
 Software and firmware: MIT
 
-# Disclaimer
+## Disclaimer
 
 This instrument is a personal project under active development and has not been 
 validated. Do not use for any application requiring verified measurements. 
