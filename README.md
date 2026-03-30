@@ -55,8 +55,7 @@ Software and firmware: MIT
 
 ## Disclaimer
 
-This instrument is a personal project under active development and has not been 
-validated. Do not use for any application requiring verified measurements. 
+This instrument is under active development and has not been validated. Do not use for any application requiring verified measurements. 
 
 ## Author
 
