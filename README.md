@@ -12,7 +12,7 @@ A First-pass circuit design has been completed and simulation is in progress
 |---|---|
 | Research and literature review | 🔄 In progress |
 | First-pass circuit design | ✅ Complete |
-| LTspice simulation and design refinement | ✅ Complete |
+| LTspice simulation and design refinement | 🔄 In progress |
 | enclosure, electrode, and cell design | ⏳ Not started |
 | Firmware and software development | ⏳ Not started |
 | Breadboard prototype | ⏳ Not started |
