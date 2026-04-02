@@ -1,4 +1,4 @@
-# Simulation Notes — Open Source Potentiostat
+# Simulation Notes 
 
 This document outlines the circuit simulations done during the design process. All simulations were done using LTspice, an open source SPICE simulation software. Simulation files can be found in the `simulations/` folder of this repository.
 
