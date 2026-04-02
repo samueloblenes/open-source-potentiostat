@@ -12,7 +12,7 @@ A First-pass circuit design has been completed and simulation is in progress
 |---|---|
 | Research and literature review | 🔄 In progress |
 | First-pass circuit design | ✅ Complete |
-| LTspice simulation and design refinement | 🔄 In progress |
+| LTspice simulation and design refinement | ✅ Complete |
 | enclosure, electrode, and cell design | ⏳ Not started |
 | Firmware and software development | ⏳ Not started |
 | Breadboard prototype | ⏳ Not started |
@@ -39,7 +39,7 @@ electrochemical techniques:
 open-source-potentiostat/
 ├── hardware/
 │   ├── schematics/            ← KiCad schematic files (in progress)
-│   ├── simulation/            ← LTspice simulation files and notes (in progress)
+│   ├── simulation/            ← LTspice simulation files and notes
 ├── docs/
 │   ├── bom/                   ← Bill of materials (in progress)
 │   ├── circuit_design_notes.md
