@@ -5,7 +5,22 @@
 
 ## Current status
 
-A First-pass circuit design has been completed and simulation is in progress
+### Circuit Design — Complete
+
+![Circuit Schematic](docs/figures/circuit_design_overview.png)
+
+---
+
+## Simulation — Complete
+
+![TIA AC Stability Simulation](docs/figures/tia_ac_stability.png)
+
+---
+
+## Breadboard Prototyping — In Progress
+
+![Breadboard prototype in progress](docs/figures/breadboard.jpg)
+
 
 ## Project overview
 | Stage | Status |
