@@ -15,7 +15,7 @@ A First-pass circuit design has been completed and simulation is in progress
 | LTspice simulation and design refinement | ✅ Complete |
 | enclosure, electrode, and cell design | ⏳ Not started |
 | Firmware and software development | ⏳ Not started |
-| Breadboard prototype | ⏳ Not started |
+| Breadboard prototype | 🔄 In progress |
 | PCB design and fabrication | ⏳ Not started |
 | Assembly | ⏳ Not started |
 | Calibration and test with randles cell equivalent | ⏳ Not started |
