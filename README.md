@@ -3,25 +3,6 @@
 > **Note: This project is actively in progress.  It is not complete or 
 > ready for use.**
 
-## Current status
-
-### Circuit Design — Complete
-
-![Circuit Schematic](docs/figures/circuit_design_overview.png)
-
----
-
-## Simulation — Complete
-
-![TIA AC Stability Simulation](docs/figures/tia_ac_stability.png)
-
----
-
-## Breadboard Prototyping — In Progress
-
-![Breadboard prototype in progress](docs/figures/breadboard.jpg)
-
-
 ## Project overview
 | Stage | Status |
 |---|---|
