@@ -4,20 +4,6 @@
 > ready for use.**
 
 ## Project overview
-| Stage | Status |
-|---|---|
-| Research and literature review | 🔄 In progress |
-| First-pass circuit design | ✅ Complete |
-| LTspice simulation and design refinement | ✅ Complete |
-| enclosure, electrode, and cell design | ⏳ Not started |
-| Firmware and software development | ⏳ Not started |
-| Breadboard prototype | 🔄 In progress |
-| PCB design and fabrication | ⏳ Not started |
-| Assembly | ⏳ Not started |
-| Calibration and test with randles cell equivalent | ⏳ Not started |
-| Instrument validation | ⏳ Not started |
-| Corrosion experiments | ⏳ Not started |
-
 This project documents the design, construction, and validation 
 of a low-cost open-source potentiostat for cyclic voltammetry 
 (CV) and corrosion characterization of copper (Cu) and tungsten 
