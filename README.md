@@ -35,10 +35,6 @@ Hardware design files: CERN OHL-S v2
 
 Software and firmware: MIT
 
-## Disclaimer
-
-This instrument is under active development and has not been validated. Do not use for any application requiring verified measurements. 
-
 ## Author
 
 Samuel O'Blenes
