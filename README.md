@@ -34,7 +34,7 @@ Once complete, the instrument will be validated against published cyclic voltamm
 - [ ] Full assembly & validation
 
 ## Repository Structure
-'''
+```
 open-source-potentiostat/
 ├── hardware/
 │   ├── schematics/          # KiCad schematic files (in progress)
@@ -44,7 +44,7 @@ open-source-potentiostat/
 │   ├── circuit_design_notes.md
 │   └── simulation_notes.md
 └── README.md
-'''
+```
 ## License
 
 - Hardware design files: [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt)
