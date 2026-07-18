@@ -45,6 +45,13 @@ open-source-potentiostat/
 │   └── simulation_notes.md
 └── README.md
 ```
+## Acknowledgments
+
+This project draws inspiration from **CheapStat**, an open-source, "do-it-yourself" potentiostat originally designed by Aaron Rowe, Andrew Bonham, Michael Zimmer, Kevin Plaxco and colleagues at UC Santa Barbara, which demonstrated that a fully open, low-cost potentiostat could support real analytical and educational applications.
+
+- Original CheapStat site: http://web.chem.ucsb.edu/~kwp/cheapstat/
+- Rowe, A.A., Bonham, A.J., White, R.J., et al. (2011). ["CheapStat: An Open-Source, 'Do-It-Yourself' Potentiostat for Analytical and Educational Applications."](https://doi.org/10.1371/journal.pone.0023783) *PLOS ONE*.
+
 ## License
 
 - Hardware design files: [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt)
