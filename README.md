@@ -37,8 +37,8 @@ Once complete, the instrument will be validated against published cyclic voltamm
 ```
 open-source-potentiostat/
 ├── hardware/
-│   ├── schematics/          # KiCad schematic files (in progress)
-│   └── simulation/          # LTspice simulation files and notes
+│   ├── schematics/          # KiCad schematic files
+│   └── simulation/          # LTspice simulation files
 ├── docs/
 │   ├── bom/                 # Bill of materials (in progress)
 │   ├── circuit_design_notes.md
