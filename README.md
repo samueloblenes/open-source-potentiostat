@@ -1,16 +1,16 @@
 # Open-Source Potentiostat
 
-**A fully open-source, low-cost potentiostat for cyclic voltammetry and general electrochemical characterization, built for under $200 as an alternative to commercial instruments costing $5,000+.**
+**A fully open-source, low-cost potentiostat for cyclic voltammetry and general electrochemical characterization, built for under $200 as an alternative to commercial instruments.**
 
-> 🚧 **Status: Active development.** Not yet complete or ready for use. See [Build Progress](#build-progress) below for current status.
+> **Status: Active development.** Not yet complete or ready for use. See [Build Progress](#build-progress) below for current status.
 
 ---
 
 ## Overview
 
-Commercial potentiostats are expensive, putting them out of reach for many student labs, hobbyists, and independent researchers. This project is an attempt to build a fully open - hardware, firmware, and software - potentiostat capable of electrochemical characterization, at a fraction of the cost.
+This project is an attempt to build a fully open - hardware, firmware, and software - potentiostat capable of electrochemical characterization, at a fraction of the cost of a comercial instrument.
 
-The instrument is built around a three-electrode electrochemical cell, using a potentiostatic control loop to maintain a precise potential at the working electrode and a switchable-gain transimpedance amplifier to measure the resulting current. A Teensy 4.1 handles low-level control and data acquisition, with a Python-based GUI for control and data analysis.
+The instrument is built around a three-electrode electrochemical cell, using a potentiostatic control loop to maintain a precise potential and a switchable-gain transimpedance amplifier to measure the resulting current. A Teensy 4.1 handles low-level control and data acquisition, with a Python-based GUI for control and data analysis.
 
 Once complete, the instrument will be validated against published cyclic voltammetry data.
 
