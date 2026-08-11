@@ -14,13 +14,6 @@ The instrument is built around a three-electrode electrochemical cell, using a p
 
 Once complete, the instrument will be validated against published cyclic voltammetry data.
 
-## Planned Capabilities
-
-- Cyclic voltammetry (CV)
-- Linear sweep voltammetry (LSV)
-- Chronoamperometry (CA)
-- Open circuit potential (OCP) measurement
-
 ## Build Progress
 
 - [x] Circuit design
