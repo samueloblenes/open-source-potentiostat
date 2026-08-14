@@ -21,10 +21,6 @@ Once complete, the instrument will be validated against published cyclic voltamm
 - [x] Preliminary firmware
 - [x] Breadboard prototype
 - [ ] Breadboard testing & debugging *(in progress)*
-- [ ] Electrode holder & electrode design
-- [ ] Enclosure design
-- [ ] Final PCB layout
-- [ ] Full assembly & validation
 
 ## Repository Structure
 ```
