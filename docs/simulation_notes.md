@@ -1,4 +1,4 @@
-# Simulation Notes — Open Source Potentiostat
+# Simulation Notes - Open Source Potentiostat
 
 This document outlines the circuit simulations done during the design process. All simulations were done using LTspice, an open source SPICE simulation software. Simulation files can be found in the `simulations/` folder of this repository.
 
@@ -240,3 +240,51 @@ Observe how the TIA handles sudden changes in input current and confirm no ringi
 Simulation files: `TIA_Step_1K`, `TIA_Step_10K`, `TIA_Step_100K`, `TIA_Step_1M`
 
 ---
+
+## 4. Full-Circuit Randles Cell Simulation
+
+**Purpose**
+Verify the complete signal chain with a Randles cell equivalent circuit and confirm that the resulting current-vs-potential response matches the behavior theoretically expected from the Randles cell.
+
+**Simulation Configuration:**
+
+- Randles cell placed between CE and RE/WE: Rs = 100 Ω, Rct = 10 kΩ, Cdl = 10 µF 
+- TIA feedback resistor: 1 kΩ
+- Input: DAC output/Vin is a PWL sweep, 0V → 3.3V over 1s then 3.3V → 0V over the following 1s
+- Command: `.tran 2`
+- Probe: V(vset) on the x-axis, (2.5-V(vout))/1k on the y-axis
+
+**Expected Outcome:**
+
+- Since Vset = 1.21 x (Vin - 1.65), the 3.3V/s ramp on Vin produces a Vset scan rate of ≈4.0 V/s
+- The response should be dominated by the resistive path in the Randles cell (Rs + Rct), giving a straight line I vs Vset realationshipso with a slope of 1/10.1 kΩ
+- The forward and reverse sweep traces should separate into a hysteresis loop, from Cdl charging/discharging (icap = Cdl × dVset/dt)
+
+Calculations, using Vset = ±2V and scan rate = 4.0V/s:
+
+Resistive term (steady-state, Cdl fully charged):
+I_R = Vset / (Rs + Rct) = Vset / 10.1kΩ  →  at Vset = 2V: I_R ≈ 198 µA
+
+Capacitive term (icap = Cdl × dVset/dt):
+I_C = 10µF × 4.0V/s = 40 µA
+
+Predicted full loop separation: ΔI = 2 × I_C = 80 µA
+Predicted forward-branch current at Vset = +2V: I_R + I_C ≈ 238 µA
+Predicted reverse-branch current at Vset = +2V: I_R − I_C ≈ 158 µA
+
+| Parameter | Expected Value | 
+|------|------------------|
+| Total Loop Separation | 80 uA |
+| Linear Regression Slope | 9.901e-5 S ~= 99.01 uA/V |
+| Forward Y-Intercept | +40 uA |
+| Reverse Y-Intercept | -40 uA|
+
+**Results:**
+
+
+
+Linear regression of forward and reverse sweep traces:
+
+
+
+
