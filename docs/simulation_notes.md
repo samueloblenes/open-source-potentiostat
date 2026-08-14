@@ -281,10 +281,13 @@ Predicted reverse-branch current at Vset = +2V: I_R − I_C ≈ 158 µA
 
 **Results:**
 
+LTSpice simulation plot:
 
+<img src="../hardware/simulation/Complete_Circuit_Simulation_Results.png" width="500">
 
 Linear regression of forward and reverse sweep traces:
 
+<img src="../hardware/simulation/linear_regression_sections.png" width="500">
 
-
+Results show a clear hysteresis loop, and linear regression yields a slope within 1% of target ($R^2 \ge 0.998$, $I_{cap} \approx \pm 40\ \mu\text{A}$) with exact theoretical alignment once edge $RC$ transients are trimmed. This confirms the circuit behaves as intended
 

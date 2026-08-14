@@ -29,13 +29,21 @@ Once complete, the instrument will be validated against published cyclic voltamm
 ## Repository Structure
 ```
 open-source-potentiostat/
-├── hardware/
-│   ├── schematics/          # KiCad schematic files
+├── firmware/                # Arduino firmware
+│   └── firmware.ino
+├── hardware/                # Hardware design files
+│   ├── schematic/           # KiCad schematic files
 │   └── simulation/          # LTspice simulation files
-├── docs/
-│   ├── bom/                 # Bill of materials (in progress)
+├── software/                # Python GUI and analysis software
+│   ├── app.py
+│   ├── main.py
+│   └── requirements.txt
+├── docs/                    # Documentation
+│   ├── BOM.csv
 │   ├── circuit_design_notes.md
 │   └── simulation_notes.md
+├── LICENSE_hardware
+├── LICENSE_software
 └── README.md
 ```
 ## Acknowledgments
