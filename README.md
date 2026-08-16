@@ -21,24 +21,20 @@ Once complete, the instrument will be validated against published cyclic voltamm
 - [x] Preliminary firmware
 - [x] Breadboard prototype
 - [ ] Breadboard testing & debugging *(in progress)*
-- [ ] Electrode holder & electrode design
-- [ ] Enclosure design
-- [ ] Final PCB layout
-- [ ] Full assembly & validation
 
 ## Repository Structure
 ```
 open-source-potentiostat/
-├── firmware/                # Arduino firmware
-│   └── firmware.ino
-├── hardware/                # Hardware design files
-│   ├── schematic/           # KiCad schematic files
-│   └── simulation/          # LTspice simulation files
-├── software/                # Python GUI and analysis software
+├── firmware/                
+│   └── firmware.ino         
+├── hardware/                
+│   ├── schematic/           
+│   └── simulation/          
+├── software/                
 │   ├── app.py
 │   ├── main.py
 │   └── requirements.txt
-├── docs/                    # Documentation
+├── docs/                    
 │   ├── BOM.csv
 │   ├── circuit_design_notes.md
 │   └── simulation_notes.md
