@@ -20,6 +20,7 @@ Once complete, the instrument will be validated against published cyclic voltamm
 - [x] SPICE simulation
 - [x] Preliminary firmware
 - [x] Breadboard prototype
+- [x] Enclosure design 
 - [ ] Breadboard testing & debugging *(in progress)*
 
 ## Repository Structure
