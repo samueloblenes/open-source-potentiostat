@@ -24,7 +24,7 @@ Once complete, the instrument will be validated against published cyclic voltamm
 - [ ] Breadboard testing & debugging *(in progress)*
 
 <p float="left">
-  <img src="docs/screenshot of enclosure model.png" width="45%" />
+  <img src="docs/Screenshot of enclosure model.png" width="45%" />
   <img src="docs/Breadboard prototype.jpeg" width="45%" />
 </p>
 
