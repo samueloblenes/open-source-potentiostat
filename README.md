@@ -28,7 +28,7 @@ Once complete, the instrument will be validated against published cyclic voltamm
 </p>
 
 <p float="left">
-<img src="docs/Breadboard prototype.jpeg" width="45%" style="transform: rotate(90deg);" />
+<img src="docs/Breadboard prototype.jpeg" width="45%" />
 </p>
 
 ## Repository Structure
