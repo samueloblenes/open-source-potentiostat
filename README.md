@@ -1,6 +1,6 @@
 # Open-Source Potentiostat
 
-**A fully open-source, low-cost potentiostat for cyclic voltammetry and general electrochemical characterization, built for under $200 as an alternative to commercial instruments.**
+**A fully open-source, low-cost potentiostat for electrochemical characterization, built as an alternative to commercial instruments.**
 
 > **Status: Active development.** Not yet complete or ready for use. See [Build Progress](#build-progress) below for current status.
 
