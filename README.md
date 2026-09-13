@@ -23,6 +23,11 @@ Once complete, the instrument will be validated against published cyclic voltamm
 - [x] Enclosure design 
 - [ ] Breadboard testing & debugging *(in progress)*
 
+<p float="left">
+  <img src="docs/screenshot of enclosure model.png" width="45%" />
+  <img src="docs/Breadboard prototype.jpeg" width="45%" />
+</p>
+
 ## Repository Structure
 ```
 open-source-potentiostat/
